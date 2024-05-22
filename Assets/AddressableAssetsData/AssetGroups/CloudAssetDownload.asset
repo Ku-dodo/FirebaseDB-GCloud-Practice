@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CloudAssetDownload
+  m_EditorClassIdentifier: 
+  m_GroupName: CloudAssetDownload
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7e4fac6f1f6c3b64aba422b92c3773e3
+  m_SerializeEntries:
+  - m_GUID: 590a693b310cc77488103703d87b7309
+    m_Address: Assets/AddressTest.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b663fb4643a84cc43a4ce53b434a82c7
+    m_Address: Assets/sound.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b518112b3f9f4104d8cb143f713e1732
+    m_Address: Assets/TestImg.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 046a3f10c3cb63d42934f81cae61e03b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 315ddc2e316fb934d8bfd3c265891570, type: 2}
+    - {fileID: 11400000, guid: ebcded4f3b7ff1547996188f4ce389ba, type: 2}

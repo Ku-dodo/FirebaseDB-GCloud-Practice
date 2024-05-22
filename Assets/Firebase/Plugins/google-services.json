@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "439273542516",
+    "project_id": "ku-test-project",
+    "storage_bucket": "ku-test-project.appspot.com",
+    "firebase_url": "https://ku-test-project-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439273542516:android:beb6e0642b7d620a56d221",
+        "android_client_info": {
+          "package_name": "com.TestCompany.Test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7quK5dv1JR3awNN4ckcS66Zi0WLFO0EY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
