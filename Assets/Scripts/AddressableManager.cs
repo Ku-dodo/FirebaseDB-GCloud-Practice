@@ -21,13 +21,13 @@ public class AddressableManager : MonoBehaviour
         {
             handles.Add(prefab);
             prefab.Result.transform.position = new Vector2(1, -3.5f);
-            Debug.Log($"ÇÚµé ¸®½ºÆ® Ãß°¡ : {handles.Count}");
+            Debug.Log($"í•¸ë“¤ ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€ëœ í•­ëª© : {handles.Count}");
         };
 
         Addressables.LoadAssetAsync<Texture>("Assets/TestImg.png").Completed += (sprite) =>
         {
             handles.Add(sprite);
-            Debug.Log($"ÇÚµé ¸®½ºÆ® Ãß°¡ : {handles.Count}");
+            Debug.Log($"í•¸ë“¤ ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€ëœ í•­ëª© : {handles.Count}");
 
             _targetImg.texture = sprite.Result;
         };
@@ -35,7 +35,7 @@ public class AddressableManager : MonoBehaviour
         Addressables.LoadAssetAsync<AudioClip>("Assets/sound.wav").Completed += (clip) =>
         {
             handles.Add(clip);
-            Debug.Log($"ÇÚµé ¸®½ºÆ® Ãß°¡ : {handles.Count}");
+            Debug.Log($"í•¸ë“¤ ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€ëœ í•­ëª© : {handles.Count}");
 
             cam.clip = clip.Result;
             cam.Play();
@@ -46,7 +46,8 @@ public class AddressableManager : MonoBehaviour
     {
         if (handles.Count == 0)
         {
-            Debug.Log("ÇØÁ¦ÇÒ ¿¡¼Â ¾øÀ½");
+            Debug.Log("í•´ì œí•  ì—ì…‹ ì—†ìŒ");
+            return;
         }
 
         foreach (var handle in handles)
@@ -63,6 +64,6 @@ public class AddressableManager : MonoBehaviour
 
         handles.Clear();
 
-        Debug.Log($"ÇØÁ¦ ¿Ï·á : {handles.Count}");
+        Debug.Log($"í•´ì œ ì™„ë£Œ : {handles.Count}");
     }
 }

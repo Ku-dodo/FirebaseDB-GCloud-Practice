@@ -25,7 +25,7 @@ public class LoadBtn : MonoBehaviour
        {
            if (task.IsFaulted)
            {
-               Debug.Log($"½ÇÆĞ! :{task.Result}");
+               Debug.Log($"ì‹¤íŒ¨! :{task.Result}");
            }
            else if (task.IsCompleted)
            {
@@ -37,7 +37,7 @@ public class LoadBtn : MonoBehaviour
 
         if (inventory == null)
         {
-            Debug.Log("Á¤ÀÇµÇÁö ¾ÊÀº À¯Àú ÀÌ¸§°ú ÀÎº¥Åä¸®");
+            Debug.Log("ì •ì˜ë˜ì§€ ì•Šì€ ìœ ì € ì´ë¦„ê³¼ ì¸ë²¤í† ë¦¬");
             return;
         }
 

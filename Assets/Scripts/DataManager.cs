@@ -34,7 +34,7 @@ public class DataManager : MonoBehaviour
 
         reference.Child("users").Child(_userName.text).SetRawJsonValueAsync(userName);
         reference.Child("users").Child(_userName.text).Child("inventory").SetRawJsonValueAsync(userInventory);
-        Debug.Log("ÀúÀå!");
+        Debug.Log("ì €ì¥!");
     }
 
     public async void ReadUser()
@@ -55,7 +55,7 @@ public class DataManager : MonoBehaviour
 
         if (_inventory == null)
         {
-            Debug.Log("Á¤ÀÇµÇÁö ¾ÊÀº µ¥ÀÌÅÍ");
+            Debug.Log("ì •ì˜ë˜ì§€ ì•Šì€ ë°ì´í„°");
             return;
         }
 
